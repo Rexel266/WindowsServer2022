@@ -1,1 +1,7 @@
-
+- Windows Server 2022 ISO Eval
+- Windows 10 ISO Eval
+- 2 GB of RAM
+- 32 GB ROM
+- Hyper-V needs to be enabled on the BIOS
+- Hyper-V manager
+- Switch within Hyper-V manager needs to be set as "not connected"
