@@ -43,3 +43,20 @@ Creation of virtual machine (Windows 10)
 8. Once the VM is created, I started the VM to start the installation of Windows 10.
 9. Set local administrator credentials.
 10. Back to Hyper-V manager, I disabled the checkpoint of the VM and set the Virtual Switch to Internal
+
+---
+
+Creation of secondary domain for replication (AD02)
+1. I downloaded the ISO file from the Windows Evaluation Center
+2. Once downloaded, I opened the Hyper-V manager and hit on New.. > Virtual Machine
+3. Specified the name of the VM (I set it as NuviaAD01) > Set the Generation to Generation 2 VM.
+4. Set startup memory to 4 GB.
+5. Set networking to not connected for now.
+6. Set VHD to 20 GB (This is the allocation of hard drive space)
+7. Set the installation options to a media.
+
+![image](https://github.com/user-attachments/assets/149ce43f-e4ab-4d2c-953e-d6e7e788f1d5)
+
+8. Once the VM is created, I started the VM to start the installation of Windows Server 2022.
+9. Set local administrator credentials.
+10. Back to Hyper-V manager, I disabled the checkpoint of the VM and set the Virtual Switch to NuviaNetworkVswitch
